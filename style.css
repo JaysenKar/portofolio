@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  margin: 0;
+}
+body {
+  padding: 10px;
+}
+
+/* header */
+header .row {
+  background-color: black;
+}
+header .col {
+  height: 100px;
+  color: white;
+}
+
+/* line style */
+.line {
+  margin: 20px 0px;
+  border-top: 3px solid;
+}
+
+/* foto */
+.foto {
+  color: white;
+  padding: 0 30%;
+}
+.foto .row {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+}
+
+/* h2 */
+h2 {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+/* skill */
+.skill {
+  background-color: purple;
+  height: 500px;
+}
+
+/* project */
+.project .row {
+  gap: 20px;
+}
+.project .col {
+  background: blue;
+  height: 250px;
+}
+/* contact */
+.contact {
+  /* background-color: grey; */
+  height: 200px;
+}
+
+/* alert */
+.alert {
+  --bs-alert-padding-x: 0.6rem;
+  --bs-alert-padding-y: 0.375rem;
+  display: none;
+}
+
+.submit-area .col {
+  padding: 0;
+}
