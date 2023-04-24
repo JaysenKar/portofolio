@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio</title>
+    <title>Portofolio - Jaysen Kartiko</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" />
@@ -14,45 +15,144 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
   </head>
   <body class="">
-    <header class="">
-      <div class="row">
-        <div class="col position-relative">
-          <div class="position-absolute top-50 start-50 translate-middle">
-            <h1>HEADER</h1>
-          </div>
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top" />
+          Jaysen Kartiko
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#profil">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </header>
-    <hr class="line" />
+    </nav>
     <div class="contain">
-      <div class="foto">
+      <div class="foto" id="profil">
+        <hr class="line" id="home" />
+        <div class="row" style="margin: 0 auto; width: 200px">
+          <div class="col foto-profil shadow"></div>
+        </div>
+        <div class="row" style="text-align: center">
+          <h1>Jaysen Natanael Kartiko</h1>
+          <p>Siswa RPL SMK TI Bali Global Singaraja</p>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="rgb(169, 208, 251)"
+          fill-opacity="1"
+          d="M0,128L40,149.3C80,171,160,213,240,202.7C320,192,400,128,480,122.7C560,117,640,171,720,181.3C800,192,880,160,960,144C1040,128,1120,128,1200,138.7C1280,149,1360,171,1400,181.3L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="skill" id="skill">
+        <h2>Our Skill</h2>
         <div class="row">
-          <div class="col position-relative">
-            <div class="position-absolute top-50 start-50 translate-middle">
-              <h1>FOTO</h1>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="assets/skill-1.jpg" class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Mengetik 10 Jari</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="assets/skill-1.jpg" class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Mengetik 10 Jari</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="assets/skill-1.jpg" class="img-fluid rounded-start" alt="..." />
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title">Mengetik 10 Jari</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <h2>Our Skill</h2>
-      <div class="skill">
-        <div class="row">
-          <div class="col"></div>
-        </div>
-      </div>
       <h2>Our Project</h2>
-      <div class="project">
+      <div class="project" id="project">
         <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem">
+              <img src="assets/projek-1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Web Pemkab Buleleng</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores provident aliquam explicabo vero harum cupiditate rerum quibusdam fugiat illo!</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-primary" target="_blank">Lihat Projek</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem">
+              <img src="assets/projek-2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Web DPR RI</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores provident aliquam explicabo vero harum cupiditate rerum quibusdam fugiat illo!</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-primary" target="_blank">Lihat Projek</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem">
+              <img src="assets/projek-3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Hack Data Pemerintah</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque reprehenderit, labore commodi quidem facilis adipisci animi? Neque hic officia molestias!</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-primary" target="_blank">Lihat Projek</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem">
+              <img src="assets/projek-4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Game Free Fire</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores provident aliquam explicabo vero harum cupiditate rerum quibusdam fugiat illo!</p>
+                <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-primary" target="_blank">Lihat Projek</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <h2>Contact</h2>
-      <div class="contact">
+      <div class="contact shadow" id="contact">
         <div class="row">
-          <div class="col-3">
+          <h2>Contact</h2>
+          <div class="col-md-3">
             <div class="mb-3">
               <label for="nama">Nama</label>
               <input type="text" class="form-control" id="nama" placeholder="Masukkan nama..." />
@@ -61,7 +161,7 @@
                 <option value="Laki-laki">Laki-laki</option>
                 <option value="Perempuan">Perempuan</option>
               </select>
-              <label for="date">Date</label>
+              <label for="date">Tanggal Lahir</label>
               <div class="input-group date" id="datepicker">
                 <input type="text" class="form-control" id="date" />
                 <span class="input-group-append">
@@ -82,7 +182,7 @@
               </div>
             </div>
           </div>
-          <div class="col" style="border: 1px solid black; border-radius: 10px">
+          <div class="col" style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 10px; margin-right: 10px; margin-bottom: 10px">
             <p class="komentar-display"></p>
           </div>
         </div>
